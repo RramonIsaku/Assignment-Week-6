@@ -2,7 +2,7 @@
 #Date: April 23, 2023
 #Assignment: Week 6
 
-
+print("Hello and welcome!")
 def main():
     intro()
 
@@ -24,5 +24,7 @@ def intro():
 def miles_to_kilometers(miles):
   kilometers = miles * 1.60934
   print("The stated miles of " + str(miles) + " is equal to " + str(kilometers),'kilometers.')
+
+print("Thank your for using the program")
 
 main()
